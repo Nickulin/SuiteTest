@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="All Test Suite">
+    <test name="Test1">
+    <parameter name="db" value="SQL"></parameter>
+        <classes>
+            <class name="Test1"></class>
+            <class name="Test2"></class>
+            <class name="Test3"></class>
+            <class name="Test4"></class>
+        </classes>
+    </test>
+
+
+
+</suite>
