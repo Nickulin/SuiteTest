@@ -1,3 +1,5 @@
+package smoke;
+
 import org.testng.annotations.Test;
 
 public class Test2 {

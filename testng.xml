@@ -3,16 +3,13 @@
 
 
 <suite name="All Test Suite">
-    <test name="Test1">
+    <test name="smoke">
     <parameter name="db" value="SQL"></parameter>
         <classes>
-            <class name="Test1"></class>
-            <class name="Test2"></class>
-            <class name="Test3"></class>
-            <class name="Test4"></class>
+            <class name="smoke.Test1"></class>
+            <class name="smoke.Test2"></class>
+            <class name="smoke.Test3"></class>
+            <class name="smoke.Test4"></class>
         </classes>
     </test>
-
-
-
 </suite>

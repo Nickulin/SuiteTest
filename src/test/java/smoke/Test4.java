@@ -1,10 +1,12 @@
+package smoke;
+
 import org.testng.annotations.Test;
 
 public class Test4 {
 
     @Test
     public  void test4() throws InterruptedException {
-        System.out.println("Test4");
+        System.out.println("smoke.Test4");
         Thread.sleep(2000);
     }
 
